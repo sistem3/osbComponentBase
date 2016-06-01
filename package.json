@@ -2,7 +2,7 @@
   "name": "osb-component-test",
   "version": "0.0.2",
   "description": "Test Component",
-  "main": "osb-component-test.js",
+  "main": "OsbComponentTest.js",
   "scripts": {
     "watch": "tsc -p src -w",
     "build": "rm -rf lib && tsc -p src"
