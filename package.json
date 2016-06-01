@@ -1,6 +1,6 @@
 {
   "name": "osb-component-test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Test Component",
   "main": "OsbComponentTest.js",
   "scripts": {
