@@ -1,11 +1,15 @@
 [override] osb-component-test h1 {
-  color: #000; }
+  color: $color-black;
+}
 
 [override] osb-component-test h2 {
-  color: red; }
+  color: red;
+}
 
 [override] osb-component-test h3 {
-  color: blue; }
+  color: blue;
+}
 
 [override] osb-component-test .container {
-  background: #FFF; }
+  background: $color-white;
+}

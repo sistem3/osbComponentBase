@@ -5,10 +5,13 @@
   "main": "OsbComponentTest.js",
   "scripts": {
     "watch": "tsc -p src -w",
-    "build": "rm -rf lib && tsc -p src"
+    "build": "rm -rf lib && tsc -p src",
+    "build-css": "node-sass --include-path scss src/assets/scss/OsbComponentTest.scss lib/OsbComponentTest.css"
   },
   "license": "MIT",
   "devDependencies": {
+    "node-sass": "^3.7.0",
+    "nodemon": "^1.9.2",
     "typescript": "^1.7.5"
   },
   "dependencies": {
@@ -19,6 +22,6 @@
     "@angular/platform-browser": "2.0.0-rc.1",
     "@angular/platform-browser-dynamic": "2.0.0-rc.1",
     "rxjs": "5.0.0-beta.6",
-    "zone.js":"^0.6.12"
+    "zone.js": "^0.6.12"
   }
 }
