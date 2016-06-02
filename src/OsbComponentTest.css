@@ -1,7 +1,0 @@
-[override] osb-component-test h1 {
-    color: red !important;
-}
-
-[override] osb-component-test {
-    background: gray;
-}
