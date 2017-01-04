@@ -4,13 +4,16 @@ Angular JS (2.0) Component Library Base is an extension of [jhades awesome libra
 
 # Development
 Clone the repository and run the following commands on the project root:
+
 1. `npm install`
 2. `npm link`
 
 Build the component via:
+
 1. `npm run build`
 
 To test component locally:
+
 1. `cd sandbox`
 2. `npm install`
 3. `npm link osb-component-test (or name of your component)`
